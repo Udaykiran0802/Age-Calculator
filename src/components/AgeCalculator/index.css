@@ -1,0 +1,144 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #43cbff 0%, #9708cc 100%);
+  background-size: cover;
+  height: 100vh;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 72px;
+}
+@media screen and (min-width: 768px) {
+  .image-container {
+    margin-top: 32px;
+  }
+}
+.age-calculator-image {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .age-calculator-image {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .age-calculator-image {
+    width: 60%;
+  }
+}
+.age-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 90%;
+  border-radius: 12px;
+  padding: 24px;
+}
+@media screen and (min-width: 768px) {
+  .age-container {
+    width: 70%;
+    padding: 48px;
+    margin-top: 65px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .age-container {
+    width: 40%;
+    margin-top: 30px;
+  }
+}
+.heading {
+  font-family: 'roboto';
+  font-size: 38px;
+  color: #171f46;
+  font-weight: 700;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 36px;
+  }
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 18px;
+}
+.input-with-error-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input-field {
+  background-color: #ffffff;
+  font-size: 14px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid grey;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 18px;
+  padding-left: 18px;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .input-field {
+    width: 326px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+}
+.error-message {
+  color: #ff0b37;
+  font-family: 'Roboto';
+  font-size: 12px;
+  width: 100%;
+  margin-top: 8px;
+}
+@media screen and (min-width: 768px) {
+  .error-message {
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 32px;
+  }
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.calculate-button {
+  color: #ffffff;
+  background-image: linear-gradient(to right, #43cbff 0%, #9708cc 100%);
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  width: 132px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 24px;
+  padding-top: 13px;
+  padding-right: 32px;
+  padding-bottom: 13px;
+  padding-left: 32px;
+  outline: none;
+  cursor: pointer;
+}
+.calculated-age-text {
+  text-align: center;
+  color: #8e1dd2;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 32px;
+}
